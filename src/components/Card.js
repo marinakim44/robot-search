@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class CatCard extends Component {
+export default class Card extends Component {
   render() {
     return (
       <div className="tc bg-light-green grow br3 pa3 ma2 dib bw2 shadow-5">
