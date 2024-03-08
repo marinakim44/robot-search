@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'CARTOON FREE';
+  src: url("./assets/fonts/CARTOON FREE.otf");
+}
+
+h1 {
+  font-family: 'CARTOON FREE';
+  color:tomato;
+}
