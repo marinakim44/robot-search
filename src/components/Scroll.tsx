@@ -1,5 +1,6 @@
-export default function Scroll(props) {
-  console.log(props);
+import { PropsWithChildren } from "react";
+
+export default function Scroll(props: PropsWithChildren) {
   return (
     <div
       style={{
