@@ -8,7 +8,12 @@ export default function SearchBar({ searchChange }: SearchBoxProps) {
   console.log("card list");
   return (
     <div className="pa2">
-      <input className="pa3" placeholder="Search..." onChange={searchChange} />
+      <input
+        className="pa3"
+        placeholder="Search..."
+        onChange={searchChange}
+        aria-label="Search robots bar"
+      />
     </div>
   );
 }

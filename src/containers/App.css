@@ -38,11 +38,12 @@
 }
 
 @font-face {
-  font-family: 'CARTOON FREE';
+  font-display: swap;
+  font-family: "CARTOON FREE";
   src: url("CARTOON FREE.otf");
 }
 
 h1 {
-  font-family: 'CARTOON FREE';
-  color:tomato;
+  font-family: "CARTOON FREE";
+  color: tomato;
 }
